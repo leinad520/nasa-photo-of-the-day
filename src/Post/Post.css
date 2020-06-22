@@ -1,3 +1,7 @@
+p {
+    font-size: 12px;
+}
+
 .posts-container-wrapper {
     height: 50%;
     width: 33%;
@@ -45,6 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 10px;
 }
 
 .like-section-wrapper-comment {
@@ -55,8 +60,13 @@
     margin: 0 10px;
 }
 
+.like-section-wrapper-comment p {
+    margin: 4px 0;
+}
+
 .icon {
-    margin: 10px;
+    margin: 10px 0;
+    margin-right: 10px;
 }
 
 .timestamp {
@@ -64,6 +74,7 @@
     justify-content: flex-end;
     width: 100%;
     margin: 10px;
+    font-size: 12px;
 }
 
 .like-count {
@@ -76,6 +87,20 @@
 
 .view-comments {
     color: grey;
+    margin: 3px 0;
+}
+
+.comment-form {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.comment-form input {
+    width: 90%;
     font-size: 14px;
-    margin: 0
+    padding: 10px;
+    border: none; 
+    color: #999;
+    border: 1px solid #efefef;
+
 }

@@ -6,7 +6,7 @@ function CommentInput(props) {
 
 
   return (
-    <form onSubmit={props.handleSubmit} >
+    <form onSubmit={props.handleSubmit} className="comment-form">
       <input type="text" 
       placeholder="comment..." 
       value={props.comment} 

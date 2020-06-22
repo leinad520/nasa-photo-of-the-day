@@ -20,7 +20,7 @@ function LikeSection(props) {
   <p><span className="author-post">{props.userName}</span> {props.title}</p>
   </div>
   <div className="like-section-wrapper">
-    <p className="view-comments">comments</p>
+    <p className="view-comments">View comments...</p>
   </div>
   </>
   );

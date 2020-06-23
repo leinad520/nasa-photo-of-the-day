@@ -52,6 +52,10 @@ p {
     margin-left: 10px;
 }
 
+.like-section-wrapper p {
+    text-align: left;
+}
+
 .like-section-wrapper-comment {
     display: flex;
     align-items: center;

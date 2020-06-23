@@ -12,6 +12,8 @@ Read these instructions carefully. Understand exactly what is expected before st
 
 Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
 
+Dan: npm run deploy to publish to github pages site
+
 ## Description
 
 In this project you will build out a application to show the nasa photo of the day.

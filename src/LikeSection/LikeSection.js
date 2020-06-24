@@ -11,7 +11,7 @@ function LikeSection(props) {
     <div className="like-section-wrapper">
       <FontAwesomeIcon icon={faHeart} className="icon" onClick={function() {setLikeCount(likeCount+1)}} />
       <FontAwesomeIcon icon={faComment} className="icon" />
-      <div className="timestamp">{props.date}</div>
+      <div className="timestamp"><p>{props.date}</p></div>
     </div>
     <div className="like-section-wrapper">
     <p className="like-count">{likeCount} likes</p>

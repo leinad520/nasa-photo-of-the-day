@@ -4,7 +4,7 @@ import CommentInput from "./CommentInput";
 import "../Post/Post.css"
 
 
-function CommentSectionContainer({userName, explanation}) {
+function CommentSectionContainer(props) {
   const [comment, setComment] = useState('')
   const [outsideComments] = useState([{
     username: 'spaceboi',
@@ -30,8 +30,8 @@ function CommentSectionContainer({userName, explanation}) {
   }
 
   return (
-    <div className="App">
-      <Comment text={explanation} userName={userName} />
+    <div>
+      <Comment userName={props.userName} text={props.explanation} />
       {outsideComments.map(obj => <Comment userName={obj.username} text={obj.text} />)}
       <CommentInput comment={comment} handleSubmit={handleSubmit} changeComment={changeComment}/>
     </div>
